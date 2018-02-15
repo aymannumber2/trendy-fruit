@@ -8,6 +8,18 @@ html {
   font-family: "open sans";
 }
 
+div:first-child {
+  background-color: #e97065;
+}
+
+div:nth-child(2) {
+  background-color: #fbd25e;
+}
+
+div:nth-child(3) {
+  background-color: #e86033;
+}
+
 .first-header {
   font-family: "Rammetto One", cursive;
 }
