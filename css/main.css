@@ -4,12 +4,21 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {
-  font-family: "open sans";
+  html {
+    font-family: "Open Sans";
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+
+    *, *::before, *::after {
+      box-sizing: inherit;
+    }
 }
 
 h2 {
   margin-bottom: 0;
+  padding-top: 2em;
 }
 
 div:first-child {
@@ -26,17 +35,19 @@ div:nth-child(3) {
 
 p {
   margin-top: 0;
+  margin-bottom: .5em;
+  padding-bottom: 2.5em;
 }
 
 .first-header {
   font-family: "Rammetto One", cursive;
   margin-top: 0;
-  padding-top: 1.5em;
   padding-bottom: 0;
 }
 
 .second-header {
   font-family: "Gravitas One", cursive;
+  margin-top: 0;
 }
 
 .third-header {
