@@ -5,11 +5,14 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: "Open Sans";
+  box-sizing: border-box;
+
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,31 +23,24 @@ body {
   margin: 0;
 }
 
-div:first-child {
+.watermelon {
   background-color: #e97065;
 }
 
-div:nth-child(2) {
+.starfruit {
   background-color: #fbd25e;
 }
 
-div:nth-child(3) {
+.persimmon {
   background-color: #e86033;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: .5em;
 }
 
 .first-header {
   font-family: "Rammetto One", cursive;
-  margin-top: 0;
 }
 
 .second-header {
   font-family: "Gravitas One", cursive;
-  margin-top: 0;
 }
 
 .third-header {
